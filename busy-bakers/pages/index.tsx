@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     const fetchCakes = async () => {
       const res = await fetch("/assets/data/products.json");
       const data = await res.json();
-      setCakes(data.cakes.slice(2, 8));
+      setCakes(data.cakes.slice(0, 5));
     };
     fetchCakes();
   }, []);
@@ -17,8 +17,7 @@ const Home: React.FC = () => {
   return (
     <>
       <main>
-        <section className="container mx-auto p-6">
-          <h1 className="text-3xl font-bold mb-6 text-center">Busy Bakers</h1>
+        <section className="container px-6 mx-auto">
           {
           cakes.length > 0 ? (
             <ImageCarousel images={cakes} />

@@ -7,7 +7,7 @@ import { $PRIMARYCOLOR, $SECONDARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
 
 const Header: React.FC = () => {
   return (
-    <header className={`border-black border-2 bg-[${$SECONDARYCOLOR}] p-4 text-white flex flex-col sticky`}>
+    <header className={`border-black border-2 bg-[#272726] p-4 text-white flex flex-col sticky`}>
       <div className="relative flex">
         <div id="companyIcon" className="w-max relative left-1/3">
         <Link href={"/"}>

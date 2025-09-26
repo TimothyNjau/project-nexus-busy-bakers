@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { hostname } from "os";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -9,6 +10,8 @@ module.exports = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "unsplash.com", pathname: "/**" },
+      { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
+      { protocol: "https", hostname: "plus.unsplash.com", pathname: "/**" },
       { protocol: "https", hostname: "static01.nyt.com", pathname: "/**" },
       { protocol: "https", hostname: "cambreabakes.com", pathname: "/**" },
       { protocol: "https", hostname: "images.ctfassets.net", pathname: "/**" },
@@ -38,6 +41,11 @@ module.exports = {
       },
       { protocol: "https", hostname: "richanddelish.com", pathname: "/**" },
       { protocol: "https", hostname: "smalltownwoman.com", pathname: "/**" },
+      {
+        protocol: "https",
+        hostname: "thebakingchocolatess.com",
+        pathname: "/**",
+      },
     ],
   },
 };

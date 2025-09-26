@@ -19,7 +19,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
     }, [images.length])
     return(
         <>
-        <div className="relative w-full h-[500px] overflow-hidden rounded-2xl drop-shadow-lg">
+        <div className="relative w-full h-[600px] overflow-hidden rounded-2xl drop-shadow-lg">
             {
                 images.map((img: { image: string; name: string }, index: number) => (
                     <div key={index} className={`absolute w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentIndex ? "opacity-100" : "opacity-0"}`}>

@@ -6,7 +6,7 @@
       "category": "Classic",
       "price": 1800,
       "description": "Rich, moist chocolate cake layered with decadent fudge frosting.",
-      "image": "https://unsplash.com/photos/a-chocolate-cake-with-chocolate-frosting-ZucnJnQMvkQ"
+      "image": "https://images.unsplash.com/photo-1655678374775-af914234d8e5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "Classic",
       "price": 1600,
       "description": "Fluffy vanilla sponge filled and topped with creamy buttercream.",
-      "image": "https://unsplash.com/photos/a-piece-of-cake-on-a-plate-with-a-fork-uED-uHereeE"
+      "image": "https://images.unsplash.com/photo-1654546518361-eef83e447521?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 3,
@@ -22,39 +22,39 @@
       "category": "Classic",
       "price": 2000,
       "description": "Vibrant red layers with smooth cream cheese frosting.",
-      "image": "https://unsplash.com/photos/sliced-cake-on-white-ceramic-plate-EfkMkUXs0fU"
+      "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?q=80&w=951&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
-      "name": "Black Forest Cake",
-      "category": "Celebration",
-      "price": 2200,
-      "description": "Layers of chocolate sponge, whipped cream, and cherries.",
-      "image": "https://unsplash.com/photos/white-and-brown-cake-with-red-ribbon-on-top-LcfX-wo4RkY"
-    },
-    {
-      "id": 5,
       "name": "Carrot Cake",
       "category": "Classic",
       "price": 1700,
       "description": "Spiced carrot sponge with walnuts and cream cheese frosting.",
-      "image": "https://unsplash.com/photos/a-slice-of-carrot-cake-with-white-frosting-on-a-plate-l-qZiYh6XK0"
+      "image": "https://plus.unsplash.com/premium_photo-1714669889975-90386fbb03e4?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Strawberry Shortcake",
       "category": "Seasonal",
       "price": 1900,
       "description": "Light vanilla sponge with whipped cream and fresh strawberries.",
-      "image": "https://unsplash.com/photos/a-cake-with-a-slice-cut-out-of-it-_nAVO0UGt2A"
+      "image": "https://plus.unsplash.com/premium_photo-1672192166851-71d218e64544?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Lemon Drizzle Cake",
       "category": "Classic",
       "price": 1500,
       "description": "Tangy lemon sponge soaked with sweet lemon glaze.",
-      "image": "https://unsplash.com/photos/a-cake-with-lemons-and-rosemary-on-a-cutting-board-WA73OBvQ_zw"
+      "image": "https://plus.unsplash.com/premium_photo-1716918178946-5922b4e8645d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 7,
+      "name": "Black Forest Cake",
+      "category": "Celebration",
+      "price": 2200,
+      "description": "Layers of chocolate sponge, whipped cream, and cherries.",
+      "image": "https://images.unsplash.com/photo-1620492129802-2955e00f161e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "category": "Classic",
       "price": 1600,
       "description": "Vanilla and chocolate swirled sponge cake for a perfect mix.",
-      "image": "https://unsplash.com/photos/bread-on-white-ceramic-plate-EbvImcvgMus"
+      "image": "https://images.unsplash.com/photo-1606702670929-51ef9685a656?q=80&w=684&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 9,
