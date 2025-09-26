@@ -1,0 +1,206 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Chocolate Fudge Cake",
+      "category": "Classic",
+      "price": 1800,
+      "description": "Rich, moist chocolate cake layered with decadent fudge frosting.",
+      "image": "https://unsplash.com/photos/a-chocolate-cake-with-chocolate-frosting-ZucnJnQMvkQ"
+    },
+    {
+      "id": 2,
+      "name": "Vanilla Buttercream Cake",
+      "category": "Classic",
+      "price": 1600,
+      "description": "Fluffy vanilla sponge filled and topped with creamy buttercream.",
+      "image": "https://unsplash.com/photos/a-piece-of-cake-on-a-plate-with-a-fork-uED-uHereeE"
+    },
+    {
+      "id": 3,
+      "name": "Red Velvet Cake",
+      "category": "Classic",
+      "price": 2000,
+      "description": "Vibrant red layers with smooth cream cheese frosting.",
+      "image": "https://unsplash.com/photos/sliced-cake-on-white-ceramic-plate-EfkMkUXs0fU"
+    },
+    {
+      "id": 4,
+      "name": "Black Forest Cake",
+      "category": "Celebration",
+      "price": 2200,
+      "description": "Layers of chocolate sponge, whipped cream, and cherries.",
+      "image": "https://unsplash.com/photos/white-and-brown-cake-with-red-ribbon-on-top-LcfX-wo4RkY"
+    },
+    {
+      "id": 5,
+      "name": "Carrot Cake",
+      "category": "Classic",
+      "price": 1700,
+      "description": "Spiced carrot sponge with walnuts and cream cheese frosting.",
+      "image": "https://unsplash.com/photos/a-slice-of-carrot-cake-with-white-frosting-on-a-plate-l-qZiYh6XK0"
+    },
+    {
+      "id": 6,
+      "name": "Strawberry Shortcake",
+      "category": "Seasonal",
+      "price": 1900,
+      "description": "Light vanilla sponge with whipped cream and fresh strawberries.",
+      "image": "https://unsplash.com/photos/a-cake-with-a-slice-cut-out-of-it-_nAVO0UGt2A"
+    },
+    {
+      "id": 7,
+      "name": "Lemon Drizzle Cake",
+      "category": "Classic",
+      "price": 1500,
+      "description": "Tangy lemon sponge soaked with sweet lemon glaze.",
+      "image": "https://unsplash.com/photos/a-cake-with-lemons-and-rosemary-on-a-cutting-board-WA73OBvQ_zw"
+    },
+    {
+      "id": 8,
+      "name": "Marble Cake",
+      "category": "Classic",
+      "price": 1600,
+      "description": "Vanilla and chocolate swirled sponge cake for a perfect mix.",
+      "image": "https://unsplash.com/photos/bread-on-white-ceramic-plate-EbvImcvgMus"
+    },
+    {
+      "id": 9,
+      "name": "Coffee Walnut Cake",
+      "category": "Exotic",
+      "price": 2000,
+      "description": "Coffee-flavored sponge with crunchy walnuts and creamy icing.",
+      "image": "https://static01.nyt.com/images/2015/12/10/dining/10COOKING-COFFEEWALNUTCAKE1/10COOKING-COFFEEWALNUTCAKE1-master768.jpg?quality=75&auto=webp"
+    },
+    {
+      "id": 10,
+      "name": "Mango Mousse Cake",
+      "category": "Exotic",
+      "price": 2100,
+      "description": "Soft sponge topped with a refreshing mango mousse layer.",
+      "image": "https://cambreabakes.com/wp-content/uploads/2023/05/mango-mousse-cake-featured-1.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Coconut Cream Cake",
+      "category": "Exotic",
+      "price": 1900,
+      "description": "Fluffy sponge cake filled with coconut cream and flakes.",
+      "image": "https://images.ctfassets.net/uw7yiu2kuigc/SkS7vi7dYPCqSDdVXgfBU/a790e80bff71e597a4498dda65741ce0/Coconut-Cake-Lead.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Banana Caramel Cake",
+      "category": "Exotic",
+      "price": 2000,
+      "description": "Moist banana sponge topped with gooey caramel drizzle.",
+      "image": "https://images.squarespace-cdn.com/content/v1/65c3e29954a54703b46fe0ae/1722941899604-IB5Z9GXTSGNELUI8Q32W/IMG_2201.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Pineapple Upside-Down Cake",
+      "category": "Seasonal",
+      "price": 1800,
+      "description": "Caramelized pineapple slices baked into a buttery sponge.",
+      "image": "https://www.gonnawantseconds.com/wp-content/uploads/2023/06/Pineapple-Upside-Down-Cake-1.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Oreo Cookies & Cream Cake",
+      "category": "Celebration",
+      "price": 2200,
+      "description": "Chocolate sponge with Oreo cream frosting and cookie crumble.",
+      "image": "https://beyondfrosting.com/wp-content/uploads/2018/04/Cookies-and-Cream-Oreo-Cake-046.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Matcha Green Tea Cake",
+      "category": "Exotic",
+      "price": 2300,
+      "description": "Delicate matcha sponge with subtle earthy flavor and cream.",
+      "image": "https://www.dessertfortwo.com/wp-content/uploads/2022/10/Matcha-Cake-19.jpg"
+    }
+  ],
+  "cookies": [
+    {
+      "id": 1,
+      "name": "Chocolate Chip Cookies",
+      "category": "Classic",
+      "price": 300,
+      "description": "Crispy on the edges, chewy in the center, packed with chocolate chips.",
+      "image": "https://www.thebakingchocolatess.com/wp-content/uploads/2015/06/4VrueFFw-3.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Oatmeal Raisin Cookies",
+      "category": "Classic",
+      "price": 250,
+      "description": "Chewy oatmeal cookies with sweet raisins and a hint of cinnamon.",
+      "image": "https://lilluna.com/wp-content/uploads/2023/02/oatmeal-raisin-cookies2-resize-15.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Peanut Butter Cookies",
+      "category": "Classic",
+      "price": 280,
+      "description": "Soft cookies with a rich peanut butter flavor.",
+      "image": "https://www.sprinklesomesugar.com/wp-content/uploads/2023/05/peanut-butter-cookies-9.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Double Chocolate Cookies",
+      "category": "Classic",
+      "price": 320,
+      "description": "Intensely chocolatey cookies with chunks of dark chocolate.",
+      "image": "https://www.allrecipes.com/thmb/Ru9TCrCHmWHBoKrQdJG-zHUHjhA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/26237-double-chocolate-chip-cookies-VAT-hero-4x3-aad9ffaaf2b1429ba1120596220e9105.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sugar Cookies",
+      "category": "Celebration",
+      "price": 220,
+      "description": "Classic buttery sugar cookies, perfect for decoration.",
+      "image": "https://glutenfreebaking.com/wp-content/uploads/2023/10/Stack-of-Gluten-Free-Sugar-Cookies.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Snickerdoodle Cookies",
+      "category": "Classic",
+      "price": 280,
+      "description": "Soft cookies rolled in cinnamon sugar for a cozy flavor.",
+      "image": "https://www.modernhoney.com/wp-content/uploads/2018/12/The-Best-Snickerdoodle-Cookie-Recipe-5.jpg"
+    },
+    {
+      "id": 7,
+      "name": "White Chocolate Macadamia Cookies",
+      "category": "Exotic",
+      "price": 350,
+      "description": "Chewy cookies with white chocolate chunks and macadamia nuts.",
+      "image": "https://www.justsotasty.com/wp-content/uploads/2021/10/Bakery-White-Chocolate-Macadamia-Cookies-12.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Coconut Crunch Cookies",
+      "category": "Exotic",
+      "price": 300,
+      "description": "Crispy cookies with shredded coconut for extra crunch.",
+      "image": "https://thehazelnutfactory.com/cdn/shop/files/CoconutCookies.png?v=1705085862"
+    },
+    {
+      "id": 9,
+      "name": "Red Velvet Cookies",
+      "category": "Celebration",
+      "price": 330,
+      "description": "Soft, chewy red velvet cookies with white chocolate chips.",
+      "image": "https://richanddelish.com/wp-content/uploads/2023/01/red-velvet-cake-mix-cookies.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Gingerbread Cookies",
+      "category": "Seasonal",
+      "price": 280,
+      "description": "Spiced cookies with ginger, cinnamon, and molasses — festive favorite.",
+      "image": "https://www.smalltownwoman.com/wp-content/uploads/2018/10/Soft-Ginger-Cookies-DSC_1530-II.jpg"
+    }
+  ]
+}
