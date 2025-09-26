@@ -12,10 +12,10 @@
 
   <style>
     :root{
-      --bb-primary:#F6C1C1; /* cake layer */
+      --bb-primary:#FFC910; /* cake layer */
       --bb-accent:#D95D5D;  /* cherry / accent */
-      --bb-icing:#FFF6F6;   /* icing */
-      --bb-text:#3E2E2E;    /* wordmark */
+      --bb-icing:#F7F4FF;   /* icing */
+      --bb-text:#F7F4FF;    /* wordmark */
       --bb-shadow: rgba(0,0,0,0.08);
     }
     .cake-layer{ fill: var(--bb-primary); }
