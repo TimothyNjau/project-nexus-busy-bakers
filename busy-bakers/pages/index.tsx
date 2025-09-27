@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import ImageCarousel from "@/components/common/ImageCarousel";
-import Image from "next/image";
+import FilterSection from "@/components/common/FilterSection";
+import MainProductCatalog from "@/components/layout/MainProductCatalog";
+
 
 const Home: React.FC = () => {
   const [cakes, setCakes] = useState([]);
@@ -17,7 +19,7 @@ const Home: React.FC = () => {
   return (
     <>
       <main>
-        <section className="container px-6 mx-auto">
+        <section className="image-carousel px-6 mx-auto">
           {
           cakes.length > 0 ? (
             <ImageCarousel images={cakes} />
@@ -25,6 +27,10 @@ const Home: React.FC = () => {
             <p className="text-center">Loading cakes...</p>
           )
           }
+        </section>
+
+        <section className="main-product-catalog">
+          <MainProductCatalog />
         </section>
   
       </main>

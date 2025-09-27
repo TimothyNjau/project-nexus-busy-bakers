@@ -3,7 +3,7 @@ import Image from "next/image";
 import BusyBakers from "@/public/assets/icons/busy-bakers.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { $PRIMARYCOLOR, $SECONDARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
+import { $PRIMARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
 
 const Header: React.FC = () => {
   return (
@@ -29,6 +29,7 @@ const Header: React.FC = () => {
         <Link href={"/"}>Home</Link>
         <Link href={"/about"}>About Us</Link>
         <Link href={"/shop"}>Shop</Link>
+        
         <Link href={"/blog"}>Blog</Link>
         <Link href={"/contact"}>Contact Us</Link>
       </nav>
