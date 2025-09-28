@@ -3,7 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 import BusyBakers from "@/public/assets/icons/busy-bakers.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faMagnifyingGlass, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import {
+  faUser,
+  faMagnifyingGlass,
+  faBars,
+  faTimes,
+  faShoppingCart,
+} from "@fortawesome/free-solid-svg-icons";
 import { $PRIMARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
 
 const Header: React.FC = () => {
@@ -12,7 +18,6 @@ const Header: React.FC = () => {
   return (
     <header className="border-black border-2 bg-[#272726] text-white sticky top-0 z-50">
       <div className="flex justify-between items-center p-4">
-        
         <button
           className="block md:hidden text-white text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -32,13 +37,22 @@ const Header: React.FC = () => {
             />
           </Link>
         </div>
-        <Link href={"/login"} className="text-right">
-          <FontAwesomeIcon
-            icon={faUser}
-            color={$PRIMARYCOLOR}
-            className="sm:text-xl md:text-2xl lg:text-4xl transition-all duration-300"
-          />
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href={"/productReceipt"} className="">
+            <FontAwesomeIcon
+              icon={faShoppingCart}
+              className="sm:text-xl md:text-2xl lg:text-4xl transition-all duration-300"
+              color={$PRIMARYCOLOR}
+            />
+          </Link>
+          <Link href={"/login"} className="text-right">
+            <FontAwesomeIcon
+              icon={faUser}
+              color={$PRIMARYCOLOR}
+              className="sm:text-xl md:text-2xl lg:text-4xl transition-all duration-300"
+            />
+          </Link>
+        </div>
       </div>
 
       <nav
@@ -58,7 +72,10 @@ const Header: React.FC = () => {
         <Link href={"/blog"} className="hover:text-[#ffc910] py-2 text-center">
           Blog
         </Link>
-        <Link href={"/contact"} className="hover:text-[#ffc910] py-2 text-center">
+        <Link
+          href={"/contact"}
+          className="hover:text-[#ffc910] py-2 text-center"
+        >
           Contact Us
         </Link>
       </nav>
