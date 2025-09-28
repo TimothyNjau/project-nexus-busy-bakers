@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.7"
+  }
+}
