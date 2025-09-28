@@ -9,9 +9,9 @@ const About: React.FC = () => {
             <Image
               src="/assets/icons/busy-bakers.svg"
               alt="Busy Bakers Logo"
-              width={80}
-              height={80}
-              className="w-20 h-20"
+              width={300}
+              height={100}
+              className="w-90 h-40"
             />
           </div>
         </div>
