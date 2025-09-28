@@ -1,6 +1,5 @@
 import { ProductCardProps } from "@/interfaces";
 import Image from "next/image";
-import Link from "next/link";
 import { $PRIMARYCOLOR, $SECONDARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/cartSlice";

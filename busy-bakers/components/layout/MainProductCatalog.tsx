@@ -1,5 +1,4 @@
 import FilterSection from "../common/FilterSection";
-import { ProductProps } from "@/interfaces";
 import ProductCard from "../common/ProductCard";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
