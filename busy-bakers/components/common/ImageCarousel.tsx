@@ -33,7 +33,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
             
             <div className="absolute bottom-4 w-full flex justify-center space-x-2">
                 {images.map((_, idx) => (
-                    <button key={idx} onClick={() => setCurrentIndex(idx)} className={`w-3 h-3 rounded-full ${idx === currentIndex ? "bg-white" : "bg-gray-400"}`}  />
+                    <button key={idx} onClick={() => setCurrentIndex(idx)} className={`w-3 h-3 rounded-full sm:text-xl md:text-2xl lg:text-3xl ${idx === currentIndex ? "bg-white" : "bg-gray-400"}`}  />
                 ))}
             </div>
         </div>

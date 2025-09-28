@@ -8,8 +8,8 @@ import cartReducer from "./cartSlice";
 const store = configureStore({
   reducer: {
     products: productsReducer,
-    filter: filterReducer.reducer,
-    sort: sortReducer.reducer,
+    filter: filterReducer,
+    sort: sortReducer,
     cart: cartReducer,
   },
 });

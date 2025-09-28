@@ -2,12 +2,29 @@ import { ProductCardProps } from "@/interfaces";
 import Image from "next/image";
 import Link from "next/link";
 import { $PRIMARYCOLOR, $SECONDARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
+import { useDispatch } from "react-redux";
+import { addToCart } from "@/store/cartSlice";
+import { useRouter } from "next/router";
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+  const dispatch = useDispatch();
+  const router = useRouter();
+
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.preventDefault();
+    dispatch(addToCart(product));
+  };
+
+  const handleView = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    router.push(`/shop/${product.id}`);
+  };
+
   return (
-    <Link
-      href={`/shop/${product.id}`}
-      className={`block bg-[${$TERTIARYCOLOR}] rounded-2xl overflow-hidden border border-[#f0eaff] transition-all duration-300 hover:shadow-[0_8px_25px_rgba(255,201,16,0.4)] hover:-translate-y-1`}
+    <div
+      className={`cursor-pointer bg-[${$TERTIARYCOLOR}] rounded-2xl overflow-hidden border border-[#f0eaff] transition-all duration-300 hover:shadow-[0_8px_25px_rgba(255,201,16,0.4)] hover:-translate-y-1`}
+      onClick={handleAddToCart}
+      title="Click to add to cart"
     >
       <div className="relative w-full h-56">
         <Image
@@ -26,14 +43,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <span className="text-xl font-bold text-[#272726]">
             Ksh {product.price}
           </span>
-          <span
+          <button
             className={`bg-[${$PRIMARYCOLOR}] text-[${$SECONDARYCOLOR}] text-sm font-semibold px-4 py-1.5 rounded-lg shadow-md hover:shadow-lg hover:bg-[#ffd84d] transition duration-300`}
+            onClick={handleView}
           >
             View
-          </span>
+          </button>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

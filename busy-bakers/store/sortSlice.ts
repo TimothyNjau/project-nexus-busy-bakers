@@ -21,4 +21,5 @@ const sortSlice = createSlice({
   },
 });
 
-export default sortSlice
+export const { setSortBy, clearSort } = sortSlice.actions;
+export default sortSlice.reducer;

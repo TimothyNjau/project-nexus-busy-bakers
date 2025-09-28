@@ -21,4 +21,5 @@ const filterSlice = createSlice({
   },
 });
 
-export default filterSlice
+export const { setCategory, clearCategory } = filterSlice.actions;
+export default filterSlice.reducer;

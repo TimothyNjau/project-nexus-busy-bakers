@@ -10,10 +10,16 @@ import {
   faTimes,
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { useSelector } from "react-redux";
+import { RootState } from "@/store";
 import { $PRIMARYCOLOR, $TERTIARYCOLOR } from "@/styles/color";
 
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const cartCount = useSelector((state: RootState) =>
+    state.cart.items.reduce((sum, item) => sum + item.quantity, 0)
+  );
 
   return (
     <header className="border-black border-2 bg-[#272726] text-white sticky top-0 z-50">
@@ -38,12 +44,17 @@ const Header: React.FC = () => {
           </Link>
         </div>
         <div className="flex items-center gap-4">
-          <Link href={"/checkout"} className="">
+          <Link href={"/checkout"} className="relative">
             <FontAwesomeIcon
               icon={faShoppingCart}
               className="sm:text-xl md:text-2xl lg:text-4xl transition-all duration-300"
               color={$PRIMARYCOLOR}
             />
+            {cartCount > 0 && (
+              <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold rounded-full px-2 py-0.5">
+                {cartCount}
+              </span>
+            )}
           </Link>
           <Link href={"/login"} className="text-right">
             <FontAwesomeIcon
