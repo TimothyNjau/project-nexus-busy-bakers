@@ -21,8 +21,14 @@ module.exports = {
         pathname: "/**",
       },
       { protocol: "https", hostname: "gonnawantseconds.com", pathname: "/**" },
+      {
+        protocol: "https",
+        hostname: "www.gonnawantseconds.com",
+        pathname: "/**",
+      },
       { protocol: "https", hostname: "beyondfrosting.com", pathname: "/**" },
       { protocol: "https", hostname: "dessertfortwo.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.dessertfortwo.com", pathname: "/**" },
       {
         protocol: "https",
         hostname: "thebakingchocolatess.com",
@@ -30,22 +36,30 @@ module.exports = {
       },
       { protocol: "https", hostname: "lilluna.com", pathname: "/**" },
       { protocol: "https", hostname: "sprinklesomesugar.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.sprinklesomesugar.com", pathname: "/**" },
       { protocol: "https", hostname: "allrecipes.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.allrecipes.com", pathname: "/**" },
       { protocol: "https", hostname: "glutenfreebaking.com", pathname: "/**" },
       { protocol: "https", hostname: "modernhoney.com", pathname: "/**" },
-      { protocol: "https", hostname: "justsotasty.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.modernhoney.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.justsotasty.com", pathname: "/**" },
       {
         protocol: "https",
         hostname: "thehazelnutfactory.com",
         pathname: "/**",
       },
       { protocol: "https", hostname: "richanddelish.com", pathname: "/**" },
-      { protocol: "https", hostname: "smalltownwoman.com", pathname: "/**" },
+      { protocol: "https", hostname: "www.smalltownwoman.com", pathname: "/**" },
       {
         protocol: "https",
         hostname: "thebakingchocolatess.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.thebakingchocolatess.com",
+        pathname: "/**",
+      }
     ],
   },
 };

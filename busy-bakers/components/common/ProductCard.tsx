@@ -11,7 +11,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                  transition-all duration-300 hover:shadow-[0_8px_25px_rgba(255,201,16,0.4)] 
                  hover:-translate-y-1`}>
             <div className="relative w-full h-56">
-                <Image src={product.imageURL} alt={product.name} layout="fill" objectFit="cover" className="transition-transform duration-500 hover:scale-105"/>
+                <Image src={product.image} alt={product.name} layout="fill" objectFit="cover" className="transition-transform duration-500 hover:scale-105"/>
             </div>
             <div className="p-4">
                 <h3 className="text-lg font-semibold text-[#272726] truncate">

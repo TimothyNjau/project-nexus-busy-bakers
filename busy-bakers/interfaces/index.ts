@@ -10,7 +10,7 @@ export interface ProductProps {
     category: string,
     price: number,
     description: string,
-    imageURL: string
+    image: string
 }
 export interface ProductCardProps {
     product: ProductProps;
