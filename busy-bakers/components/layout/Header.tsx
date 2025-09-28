@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           </Link>
         </div>
         <div className="flex items-center gap-4">
-          <Link href={"/productReceipt"} className="">
+          <Link href={"/checkout"} className="">
             <FontAwesomeIcon
               icon={faShoppingCart}
               className="sm:text-xl md:text-2xl lg:text-4xl transition-all duration-300"

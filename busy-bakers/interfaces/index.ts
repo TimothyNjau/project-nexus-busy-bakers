@@ -1,17 +1,18 @@
 import { ReactNode } from "react";
 
 export interface ReactComponentProps {
-    children: ReactNode
+  children: ReactNode;
 }
 
 export interface ProductProps {
-    userId: number,
-    name: string,
-    category: string,
-    price: number,
-    description: string,
-    image: string
+  id: number;
+  userId?: number;
+  name: string;
+  category: string;
+  price: number;
+  description: string;
+  image: string;
 }
 export interface ProductCardProps {
-    product: ProductProps;
+  product: ProductProps;
 }
