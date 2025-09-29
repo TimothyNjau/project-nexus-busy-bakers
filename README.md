@@ -1,6 +1,6 @@
 # PROJECT-NEXUS-BUSY-BAKERS
 
-This is a modern, full-featured e-commerce web application for a bakery, built as part of the ALX Pro-FrontEnd track. The app demonstrates advanced React, Redux, and TypeScript skills, and is designed for a professional, mobile-first user experience.
+This project is a modern, full-featured e-commerce website for a bakery, built as part of the ALX Pro-FrontEnd track. It demonstrates advanced React, Redux, and TypeScript skills, and is designed for a professional, mobile-first user experience. Customers can browse, filter, and order bakery products online.
 
 ## Project Overview
 
@@ -66,7 +66,37 @@ Busy Bakers allows customers to browse a dynamic catalog of bakery products, fil
 
 ## Process
 
-1. Created the GitHub repository: **project-nexus-busy-bakers**
-2. Bootstrapped the project with `npx create-next-app@latest`, using _TailwindCSS_ and _TypeScript_ for a robust, scalable foundation.
-3. Designed and implemented the product catalog, filtering, sorting, and cart features using Redux Toolkit and TypeScript.
-4. Focused on clean, maintainable code and a professional, responsive UI.
+1. **Repository Creation:**
+
+- Set up the GitHub repository (**project-nexus-busy-bakers**) to enable version control and collaboration.
+
+2. **Project Bootstrapping:**
+
+- Used `npx create-next-app@latest` to scaffold a Next.js project, ensuring a solid React foundation.
+- Integrated _TailwindCSS_ for rapid, utility-first styling and _TypeScript_ for type safety and maintainability.
+
+3. **Product Catalog & Data Integration:**
+
+- Created a structured JSON file to simulate a product API, making it easy to update and expand the bakery's offerings.
+- Fetched product data on the client side and loaded it into the Redux store for global state management.
+
+4. **Filtering & Sorting Implementation:**
+
+- Built category filtering using interactive pill components, with filter state managed in Redux for consistency across the app.
+- Implemented price sorting (ascending/descending) and a clear sort option, all managed via Redux Toolkit.
+- Enabled multi-criteria filtering by combining category and price sort states, allowing users to refine product results.
+
+5. **Shopping Cart & Checkout:**
+
+- Developed a Redux-powered cart system, allowing users to add products from the catalog or product detail pages.
+- Displayed a live cart item count in the header and provided a checkout page summarizing the order.
+
+6. **TypeScript Best Practices:**
+
+- Defined interfaces for all major data structures (products, cart items, Redux state) to ensure type safety.
+- Typed all component props and Redux actions/selectors, reducing runtime errors and improving code clarity.
+
+7. **UI/UX & Responsiveness:**
+
+- Used Tailwind CSS to create a clean, modern, and fully responsive design that works seamlessly on all devices.
+- Focused on accessibility and usability, ensuring intuitive navigation and clear feedback for all user actions.
